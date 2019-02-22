@@ -14,7 +14,7 @@
             "Ю" => "yu",    "Я" => "ya"
         ];
         
-        return strtr($data, $alphabet);
+        return strtr(str_ireplace(" ", "_", $data), $alphabet);
     }
 
     $string = "ехал грека через реку";
