@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1140px;
+}
+.gallery {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.galleryItem {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    min-height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.galleryItem>img {
+    display: block;
+    width: 100%;
+}
+
+.adImage {
+    border: 1px solid #c3c3c3;
+}
+
+.adBtn {
+    margin-bottom: 25px;
+}
